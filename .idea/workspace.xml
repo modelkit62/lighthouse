@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6204ac2-a57c-4496-a385-e0d14da9d231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/optional/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patternregex/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patternregex/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testconsolounocontructor/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/base.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patternregex/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+            <state relative-caret-position="285">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testconsolounocontructor/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,8 +119,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -130,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/patternregex/AppTest.groovy" />
         <option value="$PROJECT_DIR$/src/patternregex/App.java" />
         <option value="$PROJECT_DIR$/src/patternregex/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/testconsolounocontructor/App.java" />
       </list>
     </option>
   </component>
@@ -168,6 +178,12 @@
               <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patternregex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testconsolounocontructor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,20 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.comprueba">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="optional.App" />
-      <module name="base" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.App.comprueba (1)">
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patternregex.App" />
       <module name="base" />
@@ -272,6 +275,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App.comprueba (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testconsolounocontructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testconsolounocontructor" />
+      <option name="MAIN_CLASS_NAME" value="testconsolounocontructor.App" />
+      <option name="METHOD_NAME" value="comprueba" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App.comprueba" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="base" />
       <extension name="coverage">
@@ -290,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.App.comprueba (1)" />
         <item itemvalue="JUnit.AppTest.comprueba" />
         <item itemvalue="JUnit.App.comprueba" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -312,21 +331,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="App_comprueba - 2019.07.28 at 21h 35m 06s.xml">
-      <configuration name="App.comprueba" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_comprueba - 2019.07.28 at 21h 35m 48s.xml">
-      <configuration name="App.comprueba" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_comprueba - 2019.07.28 at 21h 37m 41s.xml">
-      <configuration name="App.comprueba" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="App_comprueba - 2019.07.28 at 21h 38m 10s.xml">
-      <configuration name="App.comprueba" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_comprueba - 2019.07.28 at 21h 41m 47s.xml">
-      <configuration name="AppTest.comprueba" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_comprueba - 2019.07.28 at 21h 42m 11s.xml">
       <configuration name="AppTest.comprueba" configurationId="JUnit" />
     </history-entry>
@@ -341,6 +345,21 @@
     </history-entry>
     <history-entry file="AppTest_comprueba - 2019.07.28 at 21h 46m 22s.xml">
       <configuration name="AppTest.comprueba" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_comprueba - 2019.07.28 at 21h 48m 59s.xml">
+      <configuration name="AppTest.comprueba" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_comprueba - 2019.07.28 at 21h 50m 20s.xml">
+      <configuration name="AppTest.comprueba" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_comprueba_(1) - 2019.07.28 at 21h 56m 13s.xml">
+      <configuration name="App.comprueba (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_comprueba_(1) - 2019.07.28 at 21h 56m 54s.xml">
+      <configuration name="App.comprueba (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="App_comprueba_(1) - 2019.07.28 at 21h 57m 20s.xml">
+      <configuration name="App.comprueba (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -454,8 +473,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patternregex/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="84" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
+        <state relative-caret-position="285">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testconsolounocontructor/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" column="91" selection-start-line="11" selection-start-column="91" selection-end-line="11" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
